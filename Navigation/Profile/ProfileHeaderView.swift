@@ -70,22 +70,13 @@ class ProfileHeaderView: UIView {
             avatarImageView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
             avatarImageView.widthAnchor.constraint(equalToConstant: 70),
             avatarImageView.heightAnchor.constraint(equalToConstant: 70),
-        ])
-        
-        NSLayoutConstraint.activate([
             nameLabel.centerYAnchor.constraint(equalTo: avatarImageView.centerYAnchor),
             nameLabel.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: 16),
             nameLabel.trailingAnchor.constraint(lessThanOrEqualTo: self.trailingAnchor, constant: -16),
-        ])
-        
-        NSLayoutConstraint.activate([
             statusButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
             statusButton.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16),
             statusButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -16), // Для размещения внизу
             statusButton.heightAnchor.constraint(equalToConstant: 50),
-        ])
-        
-        NSLayoutConstraint.activate([
             waitingLabel.bottomAnchor.constraint(equalTo: statusButton.topAnchor, constant: -34),
             waitingLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
         ])
