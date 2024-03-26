@@ -1,9 +1,3 @@
-//
-//  FeedViewController.swift
-//  Navigation
-//
-//  Created by Сергей Минеев on 2/23/24.
-//
 
 import UIKit
 

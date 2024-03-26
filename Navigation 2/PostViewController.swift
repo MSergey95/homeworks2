@@ -1,16 +1,11 @@
-//
-//  PostViewController.swift
-//  Navigation
-//
-//  Created by Сергей Минеев on 2/23/24.
-//
+
 
 import UIKit
 
 class PostViewController: UIViewController {
     var post: Post?
     private let contentLabel = UILabel()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Info", style: .plain, target: self, action: #selector(showInfoViewController))

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Navigation
+//  Navigation 2
 //
-//  Created by Сергей Минеев on 2/22/24.
+//  Created by Сергей Минеев on 3/20/24.
 //
 
 import UIKit
